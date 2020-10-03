@@ -1,0 +1,413 @@
+[{"action": "CUT/PASTE", "start": ["1. FACILITY NAME <br>"], "category": "FACILITY NAME", "stop": ["<br>"]}, {"action": "CUT/PASTE", "start": ["1. Facility Name <br>"], "category": "FACILITY NAME", "stop": ["<br>"]}, {"action": "CUT/PASTE", "start": ["4. Title <br>"], "category": "TITLE", "stop": ["<br>"]}, {"action": "CUT/PASTE", "start": ["4. TITLE <br>"], "category": "TITLE", "stop": ["<br>"]}, {"action": "CUT/PASTE", "start": ["<br>Abstract"], "category": "ABSTRACT", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["<br>ABSTRACT"], "category": "ABSTRACT", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["<br>Event Description"], "category": "DESCRIPTION", "stop": ["<br>Safety"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["Event Description <br>"], "category": "DESCRIPTION", "stop": [". <br>"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["DESCRIPTION OF THE EVENT <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["DESCRIPTION OF EVENT <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["Event Description <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["<br>EVENT DESCRIPTION"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["DESCRIPTION <br>"], "category": "DESCRIPTION", "stop": [". <br>"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["DESCRIPTION OF EVENT: <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["<br>DESCRIPTION OF EVENT"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["DESCRIPTION <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["Description of Event <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["Description of Event: <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["Event Description: <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["Description of Reportable Event <br>"], "category": "DESCRIPTION", "stop": ["<br>NRC FORM"], "paragraphs": true}, {"action": "CUT/PASTE", "start": ["<br>Cause of Event"], "category": "CAUSE", "stop": [". <br>"]}, {"action": "CUT/PASTE", "start": ["Event Cause Analysis <br>"], "category": "CAUSE", "stop": [". <br>"]}, {"action": "CUT/PASTE", "start": ["CAUSE <br>"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["CAUSE OF EVENT <br>"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["Event Causes <br>"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["CAUSE"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["CAUSE"], "category": "CAUSE", "stop": [". <br>"]}, {"action": "CUT/PASTE", "start": ["CAUSE OF EVENT: <br>"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["<br>CAUSE OF EVENT"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["Cause of the Event <br>"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["Cause of Event: <br>"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["<br>CAUSAL FACTORS"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"action": "CUT/PASTE", "start": ["Cause of the event <br>"], "category": "CAUSE", "stop": ["<br>NRC FORM"]}, {"start": ["Cause of the event <br>"],"stop": ["<br></span>"],"action": "CUT/PASTE","category": "CAUSE"},{"start": ["DESCRIPTION OF THE EVENT"],"stop": ["NRC FORM"],"action": "CUT/PASTE", "category":"DESCRIPTION","paragraphs": true},
+{
+  "start": ["EVENT DESCRIPTION"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["Description of the Event"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["Cause of the Event"],
+  "stop": ["NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "CAUSE"
+},{
+  "start": ["Cause System Component Manufacturer Reportable to ICES"],
+  "stop": ["NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "CAUSE"
+},{
+  "start": ["Cause of Event"],
+  "stop": ["NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "CAUSE"
+},{
+  "start": ["4. Title"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},{
+  "start": ["DESCRIPTION OF OCCURRENCE"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["4. TITLE"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},{
+  "start": ["DESCRIPTION: <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION"
+},
+{
+  "start": ["Description <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION"
+},{
+  "start": ["Description of Events <br>"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["Description of reportable event <br>"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["DESCRIPTION OF OCCURRRENCE <br>"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+}
+,{
+  "start": ["DESCRIPTION OF THE REPORTABLE EVENT <br>"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},
+{
+  "start": ["I. FACILITY NAME <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},{
+  "start": ["FACILITY NAME <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["1. FACILITY NAME 2. DOCKET NUMBER ,3. PAGE <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["1. FACILITY NAME 2. DOCKET 6. LER NUMBER 3. PAGE <br>YEAR SEQUENTIAL REV <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},{
+  "start": ["3. PAGE <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["<br>16. ABSTRACT"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["<br>ABSTRACT"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["DATE <br>"],
+  "stop": ["<br>ABSTRACT"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["Description of Event <br>"],
+  "stop": ["<br>Analysis of Event"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},
+{
+  "start": ["1 OF 3 <br>"],
+  "stop": ["<br>4. TITLE"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["TITLE (4) <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["FACILITY NAME (11 <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["FACILITY NAME (1) DOCKET (2) LER NUMBER (6) PAGE (3) <br>"],
+  "stop": ["YEAR"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["FACILITY NAME (1) PAGE (3) DOCKET NUMBER (2) LER NUMBER (6 <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["FACILITY NAME m <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["1. FACILITY NAME    2. DOCKET NUMBER 3. PAGE <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["FACILITY NAME:"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["FACILITY NAME (1) <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["NUMBER <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},
+{
+  "start": ["<br>TrrLE(4)"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["LE <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["TITLE(4)"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["TITLE (4)"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["1 OF 4 <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["TITLE 14) <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["4. TITLE<br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["TITLE <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},{
+  "start": ["NARRATIVE"],
+  "stop": [". <br>"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["NARRATIVE"],
+  "stop": ["<br>REPORTABILITY"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["DESCRIPTION OF EVENT"],
+  "stop": ["CORRECTIVE"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["Description"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["DESCRIPTION OF EVENT"],
+  "stop": ["CAUSE"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["REPORTED CONDITION"],
+  "stop": ["CORRECTIVE"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["NARRATIVE"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["NARRATIVE"],
+  "stop": ["SAFETY SIGNIFICANCE"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},
+{
+  "start": ["<br>ABSTRACT"],
+  "stop": ["<br>LICENSEE"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["ABSTRACT"],
+  "stop": ["LICENSEE"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["<br>16 ABSTRACT"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["ABSTRACT"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["lines) <br>"],
+  "stop": ["<br>NRC FORM"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["(16) <br>"],
+  "stop": ["<br>LICENSEE"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["ines)<br>"],
+  "stop": ["<br>NRC"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["lines) <br>"],
+  "stop": ["<br>NRC"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["ABSTRACT"],
+  "stop": ["<br>LICENSEE"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["lines) <br>"],
+  "stop": ["<br>NRC"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+}
+,{
+  "start": ["TITLE:"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "TITLE"
+},
+{
+  "start": ["ABSTRACT:"],
+  "stop": ["END OF ABSTRACT"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},
+{
+  "start": ["ABSTRACT:"],
+  "stop": ["<br>TEXT"],
+  "action": "CUT/PASTE",
+  "category": "ABSTRACT"
+},{
+  "start": ["DESCRIPTION OF THE EVENT"],
+  "stop": ["CAUSE"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["Description Of The Event"],
+  "stop": ["Cause"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["DESCRIPTION"],
+  "stop": ["CAUSE"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["Description"],
+  "stop": ["Cause"],
+  "action": "CUT/PASTE",
+  "category": "DESCRIPTION",
+  "paragraphs": true
+},{
+  "start": ["FACILITY NAME (1) <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},{
+  "start": ["FACILITY NAME (1) DOCKET NUMBER (2) PAGE (3)<br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},{
+  "start": ["FACILITY NAME (1)<br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+},{
+  "start": ["FACILITY NAME (1) DOCKET NUMBER (2) PAGE (3) <br>"],
+  "stop": ["<br>"],
+  "action": "CUT/PASTE",
+  "category": "FACILITY NAME"
+}
+]

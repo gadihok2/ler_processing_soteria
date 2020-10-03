@@ -1,0 +1,1 @@
+In this folder, a modified version of truncate is being used to extract only the cause section. This version of truncate can be found in the folder named “truncate versions”. 

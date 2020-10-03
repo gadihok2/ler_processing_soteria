@@ -1,0 +1,20 @@
+PREREQUISITES:
+  Python2.7 is required to run this script.
+
+
+EXECUTION:
+  The script should be executed as follows:
+    python truncate.py <anchor_file_path> <truncate_dir> <output_file_path>
+  This will write results of truncated files in truncate_dir to output_file_path based on the anchors present in anchor_file_path.
+
+
+ANCHOR FILE FORMAT:
+  The input file is expected to be a JSON file. The JSON file will consist of a list of dictionaries, with each dictionary representing a truncation action to attempt. Each truncation action has an action type, "start" and "stop" lists, and other paratemeters depending on the use case.
+
+  "Start/stop" lists which should contain the potential start and stop strings that the script should consider for that truncation action. The script will use the first start/stop point from the list that is found in the text file it is operating on.
+
+  The action type can either be "CUT/PASTE" or "REMOVE". The remove action is used to remove text between the first occurrence of the associated anchors to prepare it for the cut/paste action. The cut/paste action removes the text between the associated anchors from the text file, strips all html tags, and then pastes a formatted entry containing the result into the output file. A "category" parameter is required for the cut/paste action. This specifies the category name to use in the output file.
+
+  The optional parameter is "paragraphs", which is used with the cut/paste action to indicate that the pasted text should be seperated into enumerated paragraphs in the output file.
+
+  An example anchor file (example_anchor.txt) has been provided for reference.

@@ -1,0 +1,47 @@
+PREREQUISITES:
+  Python2.7, selenium chrome driver, python selenium, and python requests are required to execute this script.
+
+  When installing the selenium chrome driver, make sure to keep track of the path to the chromedriver as this will be used as input parameter for the script. To get the selenium chrome driver:
+    https://chromedriver.storage.googleapis.com/index.html?path=2.38/
+
+  To install both selenium and requests:
+    pip install -r requirements.txt
+
+  Alternatively, you can install python selenium and request separately:
+    pip install selenium
+    pip install requests
+
+  I recommend setting up a virtual environment using the virtualenv tool. This creates an easily removable self-contained environment in which you can install prerequisites and run the script:
+    pip install virtualenv virtualenvwrapper # Only need to do this if you don't have virtualenv on your machine.
+    virtualenv ler_search_env # Creates a virtual environment called ler_search_env in your current directory
+    source ler_search_env/bin/activate # Activates the virtual environment. Commands you run will now be executed in the context of the virtual environment.
+    pip install -r requirements.txt # Install requirements
+    mkdir downloads
+    python search.py example_input.json downloads <your chromdriver path> # Execute the script using the example input file, download the resulting text files into a directory called downloads located in the current directory using the chrome driver at the provided path.
+    deactivate # Deactivates the virtual environment. Commands you run will now be executed in your default environment.
+ 
+  Deleting a virtual environment is as simple as removing the virtual environment directory. This will remove everything in the virtual environment, including any modules you installed while it was activated:
+    rm -rf ler_search_env # Be careful, if the file download directory you specified during execution (or any other important files for that matter) is located within this directory you will lose it!
+
+
+EXECUTION:
+  The script should be executed as follows:
+    python search.py <input_file_path> <download_directory_path> <chrome driver path>
+  This will execute LER searches using the parameters found in the input file and will download the resulting files in the download directory.
+
+
+INPUT FILE FORMAT:
+  The input file is expected to be a JSON file. The JSON file will consist of a list of dictionaries, which each dictionary representing an individual search query. A dictionary is a collection of key value pairs. The keys correspond to the name of the parameter on the search webpage and the values correspond to the values that should be used to for the search query. Unspecified keys will result in the default value being used for the omitted search parameter. Keys and values in the input file are case sensitive. See example_input.json for the exact format of the input file. The first search query in example_input.json should yield 21 results, while the second should yield 0 results.
+
+  Check Boxes:
+    The values for checkbox parameters are expected to be "Select" if the checkbox should be clicked and omitted otherwise. Keep in mind that the default value on the search query page may have the checkbox already checked, so be sure to look at https://lersearch.inl.gov/LERSearchCriteria.aspx.
+
+  Option Parameters:
+    The values for option parameters in the input file (e.g. a dropdown menu) are required to have the exact same text as those that appear on the following webpage: https://lersearch.inl.gov/LERSearchCriteria.aspx. In Chrome, you can ensure that correct value is used for the input file by following these steps:
+    1) Right-click on the option in the webpage
+    2) Click "Inspect"
+    3) A new panel showing the html of the page should open up with a line highlighted. Find the "value" on the highlighted line and double click the the text on the right hand side of the equal sign after "value".
+    4) Copy and paste the text that is highlighted after the double click into the input file (with quotes around it).
+
+  Text Box Paramaters:
+    The values of textbox parameters are expected to be strings. The string's content will simply be placed into the textbox, as is.
